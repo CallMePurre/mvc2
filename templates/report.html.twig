@@ -1,0 +1,67 @@
+{% extends "base.html.twig" %}
+
+{% block title %}Home{% endblock %}
+
+{% block body %}
+    <div class="reportContainer">
+        <div class="reportLinks">
+            <a href="#kmom01">Kursmoment 1</a>
+            <a href="#kmom02">Kursmoment 2</a>
+            <a href="#kmom03">Kursmoment 3</a>
+            <a href="#kmom04">Kursmoment 4</a>
+            <a href="#kmom05">Kursmoment 5</a>
+            <a href="#kmom06">Kursmoment 6</a>
+            <a href="#kmom07-10">Kursmoment 7-10</a>
+        </div>
+
+        <div class="reportText">
+            <div class="kmom 1" id="kmom01">
+                <h2>Kursmoment 1</h2>
+                <h3>Förkunskaper</h3>
+                <p>Jag har ingen omfattande erfarenhet av objektorienterad programmering. 
+                    Jag har visserligen gått en del kurser i webbteknik, design och databaser,
+                     men jag har ännu inte haft möjlighet att förstå konceptet på djupet. 
+                     Därför är jag mycket intresserad av att utöka mina kunskaper på detta område.
+                </p>
+                <h3>Kort om PHPs modell för klasser och objekt</h3>
+                <p>PHPs modell för klasser och objekt är baserat på koncepten i objektorienterad programmering (OOP). I PHP definieras en klass med nyckelordet "class", och instanser av klassen skapas som objekt.</p>
+                <p>För att komma igång med att skapa klasser i PHP behöver man förstå några grundläggande koncept:</p>
+                <ul>
+                    <li>Klassdefinition: För att definiera en klass använder man nyckelordet "class" följt av namnet på klassen och dess egenskaper och metoder inom måsvingar.</li>
+                    <li>Objektsinstansiering: För att skapa en instans av en klass används nyckelordet "new" följt av namnet på klassen och eventuella parametrar som ska skickas till klassens konstruktor.</li>
+                    <li>Egenskaper: En klass kan ha egenskaper som beskriver dess tillstånd. Dessa definieras inom klassen och kan tilldelas värden och hämtas från instanser av klassen.</li>
+                    <li>Metoder: En klass kan ha metoder som definierar dess beteende. Dessa definieras också inom klassen och kan kallas från instanser av klassen.</li>
+                    <li>Konstruktor: En konstruktor är en speciell metod som körs när en instans av en klass skapas. Den används för att tilldela värden till klassens egenskaper.</li>
+                    <li>Arv: Arv är en teknik inom OOP som innebär att en klass kan ärva egenskaper och metoder från en annan klass.</li>
+                </ul>
+                <p>Genom att förstå dessa grundläggande koncept kan man skapa sina första klasser i PHP och börja använda objektorienterad programmering i sitt PHP-projekt.</p>
+
+                <h3>Reflektion över kodbas</h3>
+                <p>Den kodbas som användes för uppgiften me/report byggdes med hjälp av Symfony-ramverket och använde även Twig-templatingmotorn. 
+                    Då jag inte använt den tidigare tyckte jag att kodbasens struktur var ganska överväldigande, 
+                    men med hjälp av vägledning från Youtube och dokumentationen kunde jag navigera och förstå den bättre. 
+                    Användningen av Symfonys inbyggda funktioner och Twigs syntax gjorde det lättare att skriva renare och effektivare kod. 
+                    Jag vet att det finns väldigt mycket mer funktioner i ramverket som jag inte har någon aning om, men det ska bli kul att lära sig mer.</p>
+                <h3>Artikeln "PHP The Right Way"</h3>
+                <p>Flera delar av artikeln "PHP The Right Way" var särskilt intressanta och värdefulla. 
+                    För det första var avsnittet om "Coding Style" användbart för att förstå bästa praxis för att formatera och organisera kod.</p>
+                <p>Ett annat avsnitt som jag fann värdefullt var "Autoloading and Autoloader Design", 
+                    som gav insikter om hur man optimerar laddningen av klasser och funktioner i PHP.</p>
+                <p>Artikelns diskussion om "Dependency Management" och "Composer" var också informativ. 
+                    Att lära sig hantera beroenden och använda verktyg som Composer kan avsevärt förenkla processen att bygga och underhålla PHP-applikationer.
+                </p>
+                <p>På det hela taget tyckte jag att artikeln var en bra resurs för att lära sig om bästa praxis inom PHP-utveckling.</p>
+                <h3>TIL för detta kursmoment</h3>
+                <p>I detta kursmoment lärde jag mig att komma igång med Symfony. 
+                    Har tidigare erfarenheter av Twig från design-kursen så det var enkelt att komma igång med det. Som tidigare nämnt är ramverket lite överväldigande då jag inte använt något liknande innan. Jag är spänd över att se hur vi fortsätter framåt.</p>
+
+            </div>
+            <div class="kmom 2" id="kmom02"><h2>Kursmoment 2</h2><p>Här kommer redovisningstexten för kursmoment 2</p></div>
+            <div class="kmom 3" id="kmom03"><h2>Kursmoment 3</h2><p>Här kommer redovisningstexten för kursmoment 3</p></div>
+            <div class="kmom 4" id="kmom04"><h2>Kursmoment 4</h2><p>Här kommer redovisningstexten för kursmoment 4</p></div>
+            <div class="kmom 5" id="kmom05"><h2>Kursmoment 5</h2><p>Här kommer redovisningstexten för kursmoment 5</p></div>
+            <div class="kmom 6" id="kmom06"><h2>Kursmoment 6</h2><p>Här kommer redovisningstexten för kursmoment 6</p></div>
+            <div class="kmom 7-10" id="kmom07-10"><h2>Kursmoment 7-10</h2><p>Här kommer redovisningstexten för kursmoment 7-10</p></div>
+        </div>
+    </div>
+{% endblock %}

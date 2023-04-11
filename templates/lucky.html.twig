@@ -1,0 +1,18 @@
+{% extends "base.html.twig" %}
+
+{% block title %}Home{% endblock %}
+
+{% block body %}
+<div class="lucky">
+    <div class="image-container">
+      <img src="{{ picture1 }}" alt="Lucky image 1">
+    </div>
+    <div class="number-container">
+      <h2>Lucky Number</h2>
+      <p>Your lucky number is {{ luckynumber }}</p>
+    </div>
+    <div class="image-container">
+        <img src="{{ picture2 }}" alt="Lucky image 2">
+      </div>
+  </div>
+{% endblock %}
