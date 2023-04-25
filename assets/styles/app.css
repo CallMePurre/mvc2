@@ -195,6 +195,20 @@ p {
   .image-container img:hover {
     transform: rotate(360deg);
   }
+
+  .cards-container {
+    display: grid;
+    grid-template-columns: repeat(8, 200px);
+    gap: 10px;
+    justify-content: center;
+}
+
+.card {
+    width: 100%;
+    height: auto;
+}
+
+
   
   @keyframes glow {
     from {
